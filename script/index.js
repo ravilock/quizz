@@ -138,12 +138,12 @@ function conferirResposta(botaoClicado) {
         // Pinta de verde se acertar
         placar++;
         contador_acertos.textContent = `Acertos: ${placar}`
-        playAudio('./src/audio/certo.mp3')
+        playAudio('./audio/certo.mp3')
         botaoClicado.classList.add('certa')
     } else {
 
         // Pinta de vermelho se errar
-        playAudio('./src/audio/errado.mp3')
+        playAudio('./audio/errado.mp3')
         botaoClicado.classList.add('errada')
         // Mostra qual era a certa
         botoesResposta.forEach(botao => {
@@ -177,7 +177,7 @@ function encerrarJogo() {
     pop_up_fim.showModal()
     const text_pontuacao = document.getElementById('text-pontuacao')
     text_pontuacao.textContent = `Você acertou ${placar} de ${listaDePerguntas.length} questões`
-    playAudio('./src/audio/fim.mp3')
+    playAudio('./audio/fim.mp3')
 }
 
 // Adiciona o click nos botões

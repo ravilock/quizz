@@ -55,7 +55,7 @@ body {
 .box-banner {
     width: 100%;
     height: 330px;
-    background-image: url('/src/assets/Background.png');
+    background-image: url('/imagens/Background.png');
     background-position: center;
     background-size: cover;
     position: relative;
