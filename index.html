@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/index.css">
+    <script src="./src/script/index.js" type="module" defer></script>
+    <title>Quizz Pilar</title>
+</head>
+
+<body>
+    <div class="box-banner">
+        <img src="./src/assets/Logo.png" alt="">
+    </div>
+
+    <div class="box-quizz">
+        <div class="row1">
+            <h1>Quizz Pilar</h1>
+            <p id="acertos">Acertos: 5</p>
+        </div>
+
+        <div class="row2">
+            <div id="titulo">
+                <p id="contador-perguntas"></p>
+                <p id="titulo-pergunta">Titulo Pergunta</p>
+            </div>
+            <div class="box-timer">
+                <div class="div-img">
+                    <img src="./src/assets/stopwatch-fill.svg" alt="">
+                    <p id="mostrador-tempo"></p>
+
+                </div>
+                <div id="timer" class=""></div>
+            </div>
+        </div>
+
+        <div class="row3">
+            <div class="opcao certa" id="opcao1">
+                <p>Resposta 1</p>
+            </div>
+            <div class="opcao" id="opcao2">
+                <p>Resposta 2</p>
+            </div>
+            <div class="opcao" id="opcao3">
+                <p>Resposta 3</p>
+            </div>
+            <div class="opcao" id="opcao4">
+                <p>Resposta 4</p>
+            </div>
+            <div class="opcao" id="opcao5">
+                <p>Resposta 5</p>
+            </div>
+        </div>
+
+
+    </div>
+
+    <dialog id="pop-up-fim">
+        <div id="content-popup">
+            <img src="./src/assets/Logo.png" alt="">
+            <h1>Fim do Quizz</h1>
+            <p id="text-pontuacao">Você acertou 5 de 20 questoes</p>
+            <button id="btn-recomecar">Recomeçar</button>
+        </div>
+    </dialog>
+</body>
+
+</html>
