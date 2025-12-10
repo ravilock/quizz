@@ -10,25 +10,25 @@
 
 ### ▶️ Como Executar
 
-• Baixe ou extraia o arquivo ZIP.
-• Abra a pasta do projeto.
-• Dê dois cliques no arquivo index.html — o jogo abre direto no navegador.
-• Não é necessário servidor ou instalação adicional.
+- Baixe ou extraia o arquivo ZIP.
+- Abra a pasta do projeto.
+- Dê dois cliques no arquivo index.html — o jogo abre direto no navegador.
+- Não é necessário servidor ou instalação adicional.
 
 ### 🎮 Como Funciona
 
-• O quiz possui 20 perguntas, cada uma com 5 alternativas.
-• Cada rodada:
+- O quiz possui 20 perguntas, cada uma com 5 alternativas.
+- Cada rodada:
   exibe o título da pergunta;
   inicia um timer de 20 segundos;
   registra acertos.
 
-• Ao responder:
+- Ao responder:
   a resposta correta fica verde;
   a errada fica vermelha;
   um som de feedback é reproduzido.
 
-• No fim, aparece um pop-up com sua pontuação total.
+- No fim, aparece um pop-up com sua pontuação total.
 ```bash
 make package
 ```
