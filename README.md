@@ -29,6 +29,9 @@
   um som de feedback é reproduzido.
 
 - No fim, aparece um pop-up com sua pontuação total.
+
+### Como Empacotar o Projeto
+
 ```bash
 make package
 ```
